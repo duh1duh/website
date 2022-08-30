@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'kumbh Sans', sans-serif ;
+}
+
+.navbar{
+    background-color: #131313;
+    height: 80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar_logo{
+    background-color: #b3170c;
+    background-image: linear-gradient(to top, #e92626 0%, #b95353 100% );
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 20cm;
+    margin-left: 0%;
+}
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+.navbar_item{
+    height: 80px;
+}
+
+.navbar_link{
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.navbar_link:hover {
+    color: #a53a32;
+    transition: all 0.3s ease;
+}
+
+.main_content  h1 {
+    font-size: 3rem;
+    color: #7f3333;
+    margin-top: 1cm;
+    margin-bottom: 0.5cm;
+    background-color: #ff0844;
+    background-image: linear-gradient(to top, #ff0187 0%, #ffb168 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-background-clip: transparent;
+    -moz-text-fill-color:transparent;
+}
+.main_content p {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-left: 0.5cm;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-background-clip: transparent;
+    -moz-text-fill-color:transparent;
+}
+
+
+.pic1 {
+    height: 50%;
+    width: 45%;
+    margin-right: 0.5cm;
+    margin-left: 1cm;
+}
+
+.main_content h2 {
+    color: #800080;
+    margin-top: 1;
+    margin-bottom: 0.5cm;
+}
+.main_content iframe {
+    margin-left: 10cm;
+}
+
+body { color: #ccc }
+.footer-widget p {
+    margin-bottom: 27px;
+}
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+.main_content iframe{
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+.exp{
+  width: 100%;
+  height: 100%;
+}
